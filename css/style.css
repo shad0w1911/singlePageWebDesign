@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: 'Quicksand', sans-serif;
+    scroll-behavior: smooth;
+    color: rgb(51, 52, 63);
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100vw;
+    height: max-content;
+}
+
+.boxContainer {
+    margin: 2vh 15vw;
+    height: max-content;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    padding: 5px;
+    justify-items: center;
+}
+
+.navBrand {
+    margin-right: 80px;
+    padding: 5px;
+}
+
+.navItems {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 10px 10px;
+    padding: 5px 10px;
+    background-color: transparent;
+    border-radius: 5px;
+    color: rgb(51, 52, 63);
+    font-size: 1.2rem;
+    transition: ease-in-out 0.2s;
+}
+
+.navItems:hover {
+    background-color: rgb(39, 197, 150);
+    color: #fff;
+}
+
+video {
+    position: relative;
+    object-fit: cover;
+    width: 100vw;
+    height: 60vh;
+}
+
+.vidOverlay {
+    position: absolute;
+    text-align: center;
+    transform: translate(0px, -250px);
+}
+
+.overlayBtn {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: rgb(39, 197, 150);
+    font-weight: 700;
+    transition: ease-in-out 0.2s;
+    border-radius: 5px;
+    border: 3px thin transparent;
+}
+
+.overlayBtn:hover {
+    border: 3px thin rgb(51, 52, 63);
+    background-color: #fff;
+    color: rgb(51, 52, 63);
+}
+
+.textHolder {
+    padding: 5vh 10vw;
+}
+
+#home div h1,
+#home div p {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.col {
+    padding: 5px;
+    width: 200px;
+    margin: 0px 30px;
+}
+
+.icon {
+    color: rgb(39, 197, 150);
+}
+
+.col h2 {
+    position: absolute;
+    transform: translate(80px, -50px);
+}
+
+#services {
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.card {
+    background-color: #fff;
+    width: 500px;
+    margin: 5px;
+    -webkit-box-shadow: 10px 10px 32px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 32px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 32px 1px rgba(0, 0, 0, 0.75);
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+}
+
+.card p {
+    text-align: center;
+    padding: 10px 5px;
+}
+
+.card p span {
+    font-weight: 900;
+    font-style: italic;
+}
+
+.thumbnail {
+    width: 230px;
+    margin: 5px;
+    /* -webkit-box-shadow: 0px 0px 16px 6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 16px 6px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 16px 6px rgba(0, 0, 0, 0.75); */
+}
+
+#contact {
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(51, 52, 63);
+    width: 100vw;
+    color: #fff;
+}
+
+.footerBox {
+    width: 300px;
+    margin: 0px 10px;
+}
+
+.footerBox p {
+    font-size: 0.8rem;
+}
+
+.footerThumbnail {
+    width: 95px;
+}
+
+.footerText {
+    text-align: justify;
+}
+
+.footerLink1 {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: ease-in-out 0.2s;
+}
+
+.footerLink1:hover {
+    color: rgb(39, 197, 150);
+}
+
+.footerLink1 i {
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.footerContact {
+    font-size: 0.8rem;
+}
+
+.footerContact p {
+    margin-top: 5px;
+}
+
+.footerContact i {
+    padding-right: 5px;
+}
+
+.footerBox form {
+    background-color: transparent;
+}
+
+.footerBox form fieldset {
+    border: none;
+}
+
+input[type="email"] {
+    height: 30px;
+    padding-right: 50px;
+    border: none;
+}
+
+input[type="email"]:focus {
+    border: none;
+}
+
+input[type="submit"] {
+    height: 30px;
+    width: 20%;
+    background: rgb(39, 197, 150);
+    color: white;
+    border: none;
+}
